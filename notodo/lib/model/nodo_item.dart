@@ -32,6 +32,30 @@ class NoDoItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      margin: const EdgeInsets.all(8.0),
+      child: new Row(
+        crossAxisAlignment : CrossAxisAlignment.start,
+        children: <Widget>[
+          Text( _itemName,
+          style: TextStyle( 
+          color: Colors.white,
+          fontWeight: FontWeight.bold,
+          fontSize: 16.9
+          ),),
+          new Container(
+            margin: const EdgeInsets.only(top: 5.0),
+            child:Text("Created on: $_dateCreated",
+            style: TextStyle(
+              color: Colors.white70,
+              fontSize: 13.5,
+              fontStyle: FontStyle.italic
+             ),),
+
+          )
+        ]
+        ,
+      )
+    );
   }
 }
