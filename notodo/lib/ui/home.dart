@@ -6,7 +6,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: Text("NoToDo"),
+        title: Text("ToDo"),
         backgroundColor: Colors.black54,
       ),
       body: new NotoDoScreen(),
