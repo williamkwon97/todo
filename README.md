@@ -1,5 +1,4 @@
 # todo
 
-![Alt text](/../todo/demo_screenshot.png?raw=true "todo screenshot")
-
+![screen1](../master/demo_screenshot.png)
 This is a simple app you can make a todo list.
